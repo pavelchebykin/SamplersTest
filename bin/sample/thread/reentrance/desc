@@ -1,0 +1,8 @@
+http://www.skipy.ru/technics/synchronization.html
+
+16:20:08.913: own:: value: 1
+16:20:08.914: own:: Sleeping
+16:20:09.913: main::Setting value
+16:20:10.914: own:: Waiting
+16:20:10.914: main::Value set
+16:20:11.914: own:: value: 2

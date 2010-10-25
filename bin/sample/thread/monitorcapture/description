@@ -1,0 +1,7 @@
+вопрос: в какой момент происходит обратный захват монитора потоком, ждущим в wait?
+http://www.skipy.ru/technics/synchronization.html
+own:: Waiting
+main::Calling notify
+main::Sleeping for 5 seconds
+main::Exiting synchronized block
+own:: Running again

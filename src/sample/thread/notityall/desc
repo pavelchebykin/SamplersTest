@@ -1,0 +1,27 @@
+http://www.skipy.ru/technics/synchronization.html
+notifyAll служит для одной цели – отправить в плаванье ВСЕ ждущие потоки. В то время как вызов notify  подействует только на один.
+
+13:20:37: own(1)::Waiting
+13:20:37: own(2)::Waiting
+13:20:37: own(4)::Waiting
+13:20:37: own(3)::Waiting
+13:20:37: own(5)::Waiting
+13:20:38: main::  Calling notifyAll
+13:20:38: main::  Sleeping for 3 seconds
+13:20:41: main::  Exiting synchronized block
+13:20:41: own(2)::Running again
+13:20:41: own(2)::Sleeping for 1 second
+13:20:42: own(2)::Finishing
+13:20:42: own(1)::Running again
+13:20:42: own(1)::Sleeping for 1 second
+13:20:43: own(1)::Finishing
+13:20:43: own(4)::Running again
+13:20:43: own(4)::Sleeping for 1 second
+13:20:44: own(4)::Finishing
+13:20:44: own(3)::Running again
+13:20:44: own(3)::Sleeping for 1 second
+13:20:45: own(3)::Finishing
+13:20:45: own(5)::Running again
+13:20:45: own(5)::Sleeping for 1 second
+13:20:46: own(5)::Finishing
+

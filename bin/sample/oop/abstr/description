@@ -1,0 +1,11 @@
+Описание проблемы:
+ * Есть такая иерархия классов:
+ * interface IA
+ * abstract class AA implements IA
+ * class A extends AA implements IA
+ * Нахрена A implements IA?
+
+ Воссоздал иерархию - Foo
+ Сделал альтернативную иерархию Foo2
+ 
+ Все нормально я затупил.
