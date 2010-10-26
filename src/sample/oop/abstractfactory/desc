@@ -1,0 +1,3 @@
+Шаблон Abstract factory http://en.wikipedia.org/wiki/Abstract_factory_pattern
+
+Шаблон реализуется за счет унификации интерфейсов фабрик и продуктов.

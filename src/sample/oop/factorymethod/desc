@@ -1,0 +1,4 @@
+Шаблон Factory method
+http://en.wikipedia.org/wiki/Factory_method_pattern
+
+Изготовление продукта в одном методе, нет промежуточных объектов.
