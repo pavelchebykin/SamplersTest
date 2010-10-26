@@ -10,7 +10,7 @@ public class TestListFinal {
 	 
 	 public void test() {
 	   _list.add("Hello world!");
-	   // Так нельзя, т.к. объявлена final ссылка
+	   // РўР°Рє РЅРµР»СЊР·СЏ, С‚.Рє. РѕР±СЉСЏРІР»РµРЅР° final СЃСЃС‹Р»РєР°
 //	   list = new ArrayList<String>();
 	 }
 }
