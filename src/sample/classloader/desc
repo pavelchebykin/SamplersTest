@@ -1,0 +1,4 @@
+Реализация загрузчиков
+http://samolisov.blogspot.com/2008/01/java.html
+
+1. Надо сделать beq.jar из sample.classloader.classes.impl и сохранить его в корень
